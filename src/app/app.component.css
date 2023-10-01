@@ -3,5 +3,4 @@
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo según el componente */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     height: calc(100vh - 56px);
-    width: 100vw;
 }
