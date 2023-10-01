@@ -8,6 +8,7 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { AtencionComponent } from './pages/atencion/atencion.component';
 import { SensacionComponent } from './pages/sensacion/sensacion.component';
 import { PercepcionComponent } from './pages/percepcion/percepcion.component';
+import { EvidenciasComponent } from './pages/evidencias/evidencias.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PercepcionComponent } from './pages/percepcion/percepcion.component';
     InicioComponent,
     AtencionComponent,
     SensacionComponent,
-    PercepcionComponent
+    PercepcionComponent,
+    EvidenciasComponent
   ],
   imports: [
     BrowserModule,
