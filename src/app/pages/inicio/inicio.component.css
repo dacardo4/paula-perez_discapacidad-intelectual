@@ -21,3 +21,9 @@
 .firstImg img {
     max-width: 300px;
 }
+.secondImg {
+    width: 100%;
+}
+.secondImg img {
+    max-width: 700px;
+}
