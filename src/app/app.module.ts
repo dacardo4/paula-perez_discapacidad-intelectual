@@ -10,6 +10,7 @@ import { SensacionComponent } from './pages/sensacion/sensacion.component';
 import { PercepcionComponent } from './pages/percepcion/percepcion.component';
 import { EvidenciasComponent } from './pages/evidencias/evidencias.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
