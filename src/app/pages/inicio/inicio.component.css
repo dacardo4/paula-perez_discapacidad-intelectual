@@ -2,9 +2,22 @@
     text-align: center;
     font-weight: 700;
 }
+.containerText p {
+    text-align: justify;
+}
 .tittle01 {
     font-size: 80px;
 }
 .tittle02 {
     font-size: 40px;
+}
+
+
+
+.firstImg {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.firstImg img {
+    max-width: 300px;
 }
